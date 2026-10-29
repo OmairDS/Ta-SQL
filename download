@@ -1,0 +1,20 @@
+# Credentials - never commit these
+*.env
+connection_string.txt
+credentials.json
+appsettings.json
+
+# SQL Server artefacts
+*.bak
+*.mdf
+*.ldf
+*.ndf
+*.trn
+
+# OS / editor noise
+Thumbs.db
+.DS_Store
+.vs/
+*.suo
+*.user
+~$*
